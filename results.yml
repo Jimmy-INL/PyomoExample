@@ -6,12 +6,12 @@
 # ----------------------------------------------------------
 Problem: 
 - Name: unknown
-  Lower bound: 0.666666666666667
-  Upper bound: 0.666666666666667
+  Lower bound: 0.0
+  Upper bound: 0.0
   Number of objectives: 1
-  Number of constraints: 2
-  Number of variables: 3
-  Number of nonzeros: 3
+  Number of constraints: 1
+  Number of variables: 1
+  Number of nonzeros: 1
   Sense: minimize
 # ----------------------------------------------------------
 #   Solver Information
@@ -24,7 +24,7 @@ Solver:
       Number of bounded subproblems: 0
       Number of created subproblems: 0
   Error rc: 0
-  Time: 0.0782616138458252
+  Time: 0.04691004753112793
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -35,9 +35,7 @@ Solution:
   Status: feasible
   Message: None
   Objective:
-    OBJ:
-      Value: 0.666666666666666
-  Variable:
-    x[1]:
-      Value: 0.333333333333333
+    obj:
+      Value: 0
+  Variable: No values
   Constraint: No values
